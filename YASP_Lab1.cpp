@@ -10,7 +10,6 @@
 const int N = 16;
 int main_menu(const char* message);
 int output_menu(const char* message);
-int exit();
 std::string num_get(std::istream& stream, const char* message);
 int char_to_int(char chr);
 int hex_to_dec(std::string hex);
